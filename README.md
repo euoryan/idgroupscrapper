@@ -1,8 +1,12 @@
 # Telegram Groups ID Scraper
 
-## Visão Geral
+Este é um bot em Python desenvolvido para extrair IDs de grupos do Telegram, com a opção de filtrar os resultados por nome. A ferramenta foi criada para facilitar a coleta de informações de grupos específicos no Telegram.
 
-Ferramenta simples e eficiente para extrair IDs de grupos do Telegram, permitindo filtragem por nome. Desenvolvida para simplificar a coleta de informações de grupos.
+## Visão Geral
+Uma ferramenta simples e eficiente para extrair IDs de grupos do Telegram, com a possibilidade de filtragem personalizada por nome. Desenvolvida para facilitar o processo de obtenção de dados de grupos.
+
+## Tecnologias
+- Python (100%)
 
 ## Configuração
 
@@ -12,48 +16,42 @@ Ferramenta simples e eficiente para extrair IDs de grupos do Telegram, permitind
 - Pandas
 
 ### Instalação
-```bash
-git clone https://github.com/seu-usuario/idgroupscrapper.git
-cd idgroupscrapper
-pip install -r requirements.txt
-```
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/euoryan/idgroupscrapper
+   ```
+2. Acesse o diretório do projeto:
+   ```bash
+   cd idgroupscrapper
+   ```
+3. Instale as dependências necessárias:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Credenciais Telegram API
+### Credenciais Telegram API
 
-### Como Obter
+#### Como Obter
 1. Visite [https://my.telegram.org/apps](https://my.telegram.org/apps)
-2. Faça login
-3. Crie uma aplicação para desenvolvimento
-4. Copie API ID e Hash
+2. Faça login com sua conta do Telegram.
+3. Crie uma aplicação para desenvolvimento.
+4. Copie o **API ID** e o **API Hash** fornecidos.
 
-> **Dica:** Mantenha suas credenciais seguras e não compartilhe publicamente.
+**Dica**: Mantenha suas credenciais seguras e não compartilhe publicamente.
 
 ## Uso
-
-Execute o script e siga os prompts interativos:
-
-```bash
-python idgroupscrapper.py
-```
+1. Execute o script:
+   ```bash
+   python idgroupscrapper.py
+   ```
+2. Siga os prompts interativos para filtrar por nome ou capturar os IDs dos grupos.
 
 ### Resultado
-- Arquivo Excel com IDs e nomes dos grupos
-- Filtragem personalizada por nome
+- Arquivo Excel gerado com os **IDs** e **nomes** dos grupos.
+- Possibilidade de **filtragem personalizada** por nome.
 
 <br/>
-<div align="center" style="color: #888;">
-    Feito com ☕ por Ryan. Gostou? Deixa uma estrela! ⭐
-</div>
-<br/>
-<div style="background-color: #202020; padding: 15px; border-radius: 5px;">
-    <p align="center">
-        <a href="https://instagram.com/euoryan">
-            <img src="https://img.shields.io/badge/-Instagram-202020?style=flat-square&logo=instagram" alt="Instagram">
-        </a>
-        <a href="https://linkedin.com/in/euoryan">
-            <img src="https://img.shields.io/badge/-LinkedIn-202020?style=flat-square&logo=linkedin" alt="LinkedIn">
-        </a>
-        <a href="https://euoryan.com">
-            <img src="https://img.shields.io/badge/-Website-202020?style=flat-square&logo=google-chrome" alt="Website">
-        </a>
+
+<div align="center">
+Feito com ☕ e código por Ryan ;) Se gostou, deixa uma estrela pra ajudar! ⭐
 </div>
